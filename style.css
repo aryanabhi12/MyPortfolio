@@ -167,7 +167,8 @@ a:hover {
 
 .contact-icons img {
   width: 40px; /* Adjust size as needed */
-  height: 40px;
+  height: 30px;
+  padding: 20px;
 }
 
 /* Footer */
