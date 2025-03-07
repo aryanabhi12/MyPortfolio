@@ -62,6 +62,36 @@ h1 {
 .container {
   padding: 40px 20px;
 }
+/* Enhanced About Section */
+.about-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #222, #333);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.1);
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+/* Hover Effect - Slight Lift */
+.about-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Text Styling */
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ddd;
+  text-align: justify;
+}
+
+/* Highlight Text */
+.highlight {
+  color: #ff3366;
+  font-weight: bold;
+}
 
 h2 {
   font-size: 24px;
