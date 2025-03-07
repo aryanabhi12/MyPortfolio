@@ -15,7 +15,7 @@ nav {
   padding: 20px 50px;
   background: black;
   position: fixed;
-  width: 80%;
+  width: 100%;
   top: 0;
 }
 
@@ -32,6 +32,7 @@ nav {
 
 .nav-links li {
   display: inline;
+  padding-left:40px;
 }
 
 .nav-links a {
